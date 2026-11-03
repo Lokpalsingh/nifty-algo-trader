@@ -1,0 +1,14 @@
+# Secrets. .env.backup is written by setup_telegram.py and holds the same
+# credentials as .env, so both patterns matter.
+.env
+.env.*
+!.env.example
+
+# Your own trading data, history and logs - nobody else's business
+data/
+logs/
+
+venv/
+__pycache__/
+*.pyc
+venv312/
